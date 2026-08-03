@@ -1,0 +1,8 @@
+open-clip-torch
+torch==2.7.1
+Pillow
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
