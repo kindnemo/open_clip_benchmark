@@ -76,17 +76,16 @@ Confusion matrices for all nine models are in
 
 <!-- Fill this table in after you run the benchmark -->
 
-| Model | Overall Accuracy | Avg ms/image | Conf (correct) | Conf (wrong) |
+| Model | Overall Accuracy % | Avg ms/image | Conf (correct) | Conf (wrong) |
 |---|---|---|---|---|
-| RN50 | — | — | — | — |
-| RN101 | — | — | — | — |
-| RN50x4 | — | — | — | — |
-| RN50x16 | — | — | — | — |
-| RN50x64 | — | — | — | — |
-| ViT-B/32 | — | — | — | — |
-| ViT-B/16 | — | — | — | — |
-| ViT-L/14 | — | — | — | — |
-| ViT-L/14@336px | — | — | — | — |
+| RN50 | 87.92 | 13.3 | 0.119 | 0.117 |
+| RN101 | 84.74 | 20.9 | 0.119 | 0.117 |
+| RN50x4 | 80.76 | 19.3 | 0.119 | 0.116 |
+| RN50x16 | 79.17 | 30.2 | 0.119 | 0.117 |
+| RN50x64 | 80.45 | 42.2 | 0.120 | 0.118 |
+| ViT-B/32 | 86.49 | 13.6 | 0.119 | 116 |
+| ViT-B/16 | 84.10 | 13.3 | 0.118 | 117 |
+| ViT-L/14 | 87.12 | 21.0 | 0.120 | 118 |
 
 **Selected model for production:** <!-- fill in after reviewing results -->
 
@@ -98,7 +97,6 @@ Confusion matrices for all nine models are in
 
 1. Open the notebook in Colab:
 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/clip_benchmark.ipynb)
 
 2. Go to `Runtime → Change runtime type → T4 GPU`.
 
