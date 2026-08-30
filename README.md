@@ -347,5 +347,15 @@ in Google Colab or Jupyter, point `DATASET_PATH` at your document dataset
 folder, and run all cells in order. Model weights are downloaded from
 Hugging Face Hub on first run.
 
+## Model licences
+
+This repo doesn't currently declare a licence for its own code — if you
+want one, add a `LICENSE` file to the repo (MIT is a common permissive
+default).
+
+The models benchmarked here are released under their own licences:
+
+- **CLIP** (all nine variants) — released by OpenAI under the [MIT License](https://github.com/openai/CLIP/blob/main/LICENSE).
+- **all-MiniLM-L6-v2**, **all-MiniLM-L12-v2**, **all-mpnet-base-v2**, **all-distilroberta-v1** — released under the [Apache 2.0 License](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).
 
 
